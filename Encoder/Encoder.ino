@@ -31,7 +31,7 @@ void setup()
   InitializeControlHardware();
   AddRangeControl("Dimmer",HEEP_OUTPUT,100,0,0);
   AddOnOffControl("Button",HEEP_OUTPUT,0);
-  StartHeep("Encoder", 4);
+  StartHeep(heepDeviceName, 4);
 
 }
 
